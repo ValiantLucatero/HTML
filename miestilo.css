@@ -1,0 +1,32 @@
+img
+{
+	height:500px;
+	float:left;
+}
+.title
+{
+	font-size:30px;
+}
+.date
+{
+	background-color:orange;
+}
+.info
+{
+	
+}
+a[href="##"]
+{
+	background-color:green;
+}
+em
+{
+	background-color:yellow;
+}
+.clearfix{
+	overflow:auto;
+}
+.name
+{
+	font-weight:bold;
+}
