@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> </title>
+		</head>
+		<body>
+			<audio controls>
+				<source src="/home/luca/Descargas/DJST.mp3" type="audio/mp3"/>
+				No puedes escuchar esto? es hermoso *0*
+			</audio>
+			<video width="100" height="100" autoplay>
+				<source src="/home/luca/Descargas/Halo5.mp4" type="video/mp4"/>
+				Que mal, no veras este hermoso video
+			</video>
+			<form name="formu">
+				Color:<input type="color" value="#00FF00"/><br>
+				Date:<input type="date" min="2010-02-19"/><br>
+				Datetime:<input type="datetime"/><br>
+				Datetime-local:<input type="datetime-local"/><br>
+				Email:<input type="email" autocomplete="on"/><br>
+				Month:<input type="month"/><br>
+				Number:<input type="number" min="10" max="20"/><br>
+				Range:<input type="range" min="5" max="10"/><br>
+				Search:<input type="search"/><br>
+				Tel:<input type="tel"/><br>
+				Time:<input type="time"/><br>
+				URL:<input type="url"/><br>
+				Week:<input type="week"/><br>
+				Nombre:<input type="text" autofocus required/><br>
+				Apellido:<input type="text" pattern="[\w]"/><br>
+				Datalist:<input list="optec" name="opc"/>
+				<datalist id="optec">
+					<option value="Computaci&ocaute;n">Computaci&oacute;n</option>
+					<option value="Histopatolog&iacute;a">Histopatolog&iacute;a</option>
+				</datalist><br>
+				Usuario:<input type="text" name="usuario"/><br>
+				Encriptacion:<keygen name="security"/><br>
+				<input type="submit"/><br>
+			</form>
+			Por si esta afuera del form<input type="text" form="formu"/><br>
+		</body>
+	</html>

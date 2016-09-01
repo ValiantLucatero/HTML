@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head><title>Formularios</title></head>
+<body>
+	<h1>Formularios</h1>
+	<form method="post" action="proceso.php">
+		Nombre:<input type="text" name="nom" size="5" maxlength="45" value="Nombre y apellidos"/><br/>
+		Contrase&ntilde;a:<input type="password" name="contra" size="10" maxlength="8"/><br/>
+		Sexo:<br/><input type="radio" name="sexo" value="M"/>Masculino<br/>
+		     <input type="radio" name="sexo" value="F"/>Femenino<br/>
+		Pasatiempos:<input type="checkbox" name="Nat" value="si"/>Nataci&oacute;n<br/>
+			    <input type="checkbox" name="Lec" value="si" checked/>Lectura<br/>
+			    <input type="checkbox" name="Mus" value="si"/>M&uacute;sica<br/>
+		Color favorito:
+		<select  name="color" size="3" multiple>
+			<option value="r">Rojo</option>
+			<option value="a">Azul</option>
+			<option value="v">Verde</option>
+		</select><br/>
+		<textarea name="opinion" cols="50" rows="5">
+		</textarea>
+		<input type="submit" value="enviar formulario"/>
+		<input type="reset" value="borrar"/>
+	</form>
+</body>
+</html>
